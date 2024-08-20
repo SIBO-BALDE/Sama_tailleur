@@ -1,0 +1,165 @@
+:root{
+    --principal:#212E53;
+    /* --seconde:#4C9FA1; */
+    --seconde:#00838d;
+    --troisime:#ffff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+/************************************ Ban style debut  *******************************************/
+
+.content-text-ban-appropos2{
+    position: absolute;
+    top: 270px;
+    color: var(--troisime);
+    /* background-color: var(--seconde); */
+    /* opacity: 0.5; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.content-text-ban-appropos-cards{
+    background-color: var(--seconde);
+    height: 190px;
+    width: 260px;
+    color: black;
+
+}
+/* #content-text-ban-appropos-cards1{
+    border-left: 2px solid var(--principal);
+    
+}
+#content-text-ban-appropos-cards2{
+    border-right: 2px solid var(--principal);
+    
+} */
+#content-text-ban-appropos-cards{
+background-color: var(--principal);
+border-left: 2px solid var(--troisime);
+border-right: 2px solid var(--troisime);
+}
+.content-text-ban-appropos-cards-icons{
+    font-size: 70px;
+    color: var(--principal);
+}
+#content-text-ban-appropos-cards-icons{
+    font-size: 70px;
+    color: var(--seconde);
+
+}
+.content-text-ban-appropos-cards-content{
+    background-color: var(--troisime);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/************************************ Ban style fin  *******************************************/
+
+
+/************************************ premiere section style debut  *******************************************/
+.content-main-apropos-seconde{
+    background-color: var(--principal);
+    /* height: 100%; */
+    width: 70%;
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-right: 10px solid var(--seconde);
+    border-left: 10px solid var(--seconde);
+
+
+    
+}
+.title-chiffres-about{
+    font-size: 80px;
+}
+/************************************  premiere section style fin  *******************************************/
+
+
+/************************************  deuxieme section style fin  *******************************************/
+.content-section-deux-appropos-separator{
+    width: 100%;
+    height: 10px;
+    background-color: var(--seconde);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    opacity: 0.5;
+}
+.content-section-deux-appropos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    
+}
+.content-main-trois-about{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+}
+
+
+  .content-main-trois-about-image-content .content-main-trois-about-image{
+    border-right: 5px solid var(--principal);
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+
+  .content-gradient{
+    display: inline-block;
+    background: linear-gradient(to left, #212E53, rgb(121,121,244));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+  }
+/************************************  deuxieme section style fin  *******************************************/
+
+/************************************  troisieme section style fin  *******************************************/
+.section3-content-main-prncipal-secondo{
+    /* background-color: var(--principal); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+}
+#section3-content-main-principal-secondo {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr); 
+    justify-items: center; 
+    align-items: center; 
+    gap: 20px;
+   
+}
+.section3-content-main-prncipal-one{
+    height: 120vh !important;
+    width: 100%;
+    padding-top: 50px;
+}
+
+
+
+
+/************************************  troisieme section style fin  *******************************************/
